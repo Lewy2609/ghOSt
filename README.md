@@ -254,7 +254,7 @@ bazel build -c opt ...
         
         The scheduler launches ghOSt agents on CPUs (i.e., logical cores) 0 and 1 and will therefore schedule ghOSt tasks onto CPUs 0 and 1. Adjust the `--ghost_cpus` command line argument value as necessary. For example, if you have an 8-core machine and you wish to schedule ghOSt tasks on all cores, then pass `0-7` to `--ghost_cpus`.
         
-    4. Launch `simple_exp`:
+    4. Launch `simple_exp` (in another terminal):
         
         ```
         bazel-bin/simple_exp
